@@ -1,0 +1,6 @@
+@Bamboo_card_currency_convertor_HostAddress = http://localhost:5089
+
+GET {{Bamboo_card_currency_convertor_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
