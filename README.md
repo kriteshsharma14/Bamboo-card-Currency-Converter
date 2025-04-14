@@ -43,8 +43,20 @@ No API key needed. Public and free to use.
 
 ---
 
+### 🚨 Assumption Made
+
+- Frankfurter API is reliable and publicly accessible with no authentication needed.
+- Currency data returned from the API fits our business need directly (no transformation needed).
+- Roles are managed in-code for simplicity. (No external identity provider or DB for users yet)
+- Pagination for historical data wraps all in a single page as Frankfurter does not support native pagination.
+- Unit tests cover core business logic, not external API behavior (mocked).
+
+---
+
 ### 📁 Clone the Repo
 
 ```bash
 git clone https://github.com/your-username/Bamboo-card-currency-converter.git
 cd Bamboo-card-currency-converter
+
+
