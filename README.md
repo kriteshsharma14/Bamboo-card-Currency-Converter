@@ -13,7 +13,7 @@ A robust, scalable, and secure ASP.NET Core Web API for currency conversion usin
 - 📦 Clean Architecture with SOLID principles
 - 🧪 NUnit Unit Tests + Moq
 - 📑 Swagger (OpenAPI) Integration
-- ☁️ HTTP Client Integration for external API calls
+- ☁️ HTTP Client Integration for diffrenct provider
 
 ---
 
